@@ -12,7 +12,7 @@
 [![Vite](https://img.shields.io/badge/Vite-6.2.0-646CFF?logo=vite)](https://vitejs.dev/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-[View in AI Studio](https://ai.studio/apps/drive/1cI0nNcLONuOvfilIz4jkBZeUwZE3DOVR) | [Report Bug](https://github.com/yourusername/ecoscan/issues) | [Request Feature](https://github.com/yourusername/ecoscan/issues)
+[Report Bug](https://github.com/yourusername/ecoscan/issues) | [Request Feature](https://github.com/yourusername/ecoscan/issues)
 
 </div>
 
@@ -148,7 +148,7 @@ Before you begin, ensure you have the following installed:
   - Download from [git-scm.com](https://git-scm.com/)
 
 - **Google Gemini API Key** (required)
-  - Get your free key at [Google AI Studio](https://aistudio.google.com/app/apikey)
+  - Get your free key at [ai.google.dev](https://ai.google.dev/gemini-api/docs/api-key)
 
 ### Installation
 
@@ -182,7 +182,7 @@ This will install all required packages listed in `package.json`.
    Replace `PLACEHOLDER_API_KEY` with your actual API key:
 
    ```env
-   # Get your free API key from: https://aistudio.google.com/app/apikey
+   # Get your free API key from: https://ai.google.dev/gemini-api/docs/api-key
    GEMINI_API_KEY=your_actual_api_key_here
    ```
 
@@ -503,7 +503,7 @@ docker run -p 8080:80 ecoscan
 1. Check `.env.local` has correct API key
 2. Verify no extra spaces or quotes around the key
 3. Restart dev server: `Ctrl+C` then `npm run dev`
-4. Check API key is valid at [Google AI Studio](https://aistudio.google.com/app/apikey)
+4. Check API key is valid at [ai.google.dev](https://ai.google.dev/gemini-api/docs/api-key)
 
 #### Camera not working
 
