@@ -1,0 +1,7 @@
+{
+  "name": "Eco-Scan Pro",
+  "description": "An intelligent product audit app that analyzes health and sustainability using Gemini AI. Scan barcodes to get instant insights into food ingredients and environmental impact.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
